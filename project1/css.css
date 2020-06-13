@@ -1,0 +1,101 @@
+
+/*New code goes here!*/
+body{
+	font-family: Gill Sans, sans-serif;
+}
+.heading1{
+	border-bottom: 3px;
+	border-bottom-color: black;
+	background-color: #FB83E5;
+	margin-left: 250px;
+	margin-right: 0px;
+}
+.heading2{
+	border-bottom: 3px;
+	border-bottom-color: black;
+	background-color: #FF2525;
+	margin-left: 250px;
+	margin-right: 0px;
+}
+.heading3{
+	border-bottom: 3px;
+	border-bottom-color: black;
+	background-color: #FFC300;
+	margin-left: 250px;
+	margin-right: 0px;
+}
+.one,.two,.three{
+	background-color: gray;
+	width: 29%;
+	float:left;
+	margin: 10px 20px;
+	padding-left: 10px;
+	border:3px solid black;
+	font-weight: bold;
+	
+}
+.para1,.para2,.para3{
+	padding:0px 5px;
+}
+.heading1,.heading2,.heading3{
+	border-left:3px solid black;
+	border-bottom:3px solid black;
+	text-align: center;
+	padding-right: 3px;
+	padding-top: 3px;
+	font-weight:bold;	
+	font-size: 23px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+/*@media screen and (max-width: 1800px){
+  body{
+    background:white;
+    font-size: inherit;
+  }
+  footer img{
+    width:100%;
+    height: auto;
+  }
+  
+}*/
+@media screen and (max-width: 750px){
+  .one,.two{
+  	float:left;
+  }
+  .heading1,.heading2{
+  	margin-left:150px;
+  }
+  .three{
+  	width:auto;
+  }
+  .heading3{
+  	margin-left: 500px;
+  }
+  .one{
+  	width:42.2%;
+  }
+  .two{
+  	width: 42.2%;
+  	margin-right:0px;
+  }
+  
+}
+@media screen and (max-width: 400px){
+  .one,.two{
+  	float:none;
+  }
+  .heading1,.heading2,.heading3{
+  	margin-left:150px;
+  }
+  .three{
+  	width:85%;
+  }
+  .one{
+  	width:85%;
+  }
+  .two{
+  	width: 85%;
+  	margin-right:0px;
+  }
+}
